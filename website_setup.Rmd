@@ -39,3 +39,8 @@ blogdown::serve_site() #test if new site is working
 
 ```
 
+```{r, create new posts}
+#to create new posts, go to the "content" folder in the site 
+
+```
+

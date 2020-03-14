@@ -4,28 +4,15 @@ description: About me and this site
 sidemenu: "true"
 title: About
 ---
+##About Me
 
-Hugo is a static site engine written in Go.
+I am a second-year master's student in the Bren School of Environmental Management at the University of California, Santa Barbara. My specializations at Bren are in Water Resources Management and Pollution Prevention and Remediation. 
+
+I am a 2019-2020 [American Association of University Women Career Development Grantee](https://www.aauw.org/), which has funded both my work at UCSB and my time in Rajasthan, India as a Fellow in Duke University's [India Summer School for Future International Development Leaders](https://youtu.be/co1pHsz2QRs).
 
 
-It makes use of a variety of open source projects including:
+##About This Site
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+Special thanks to [Martin Friggard's extremely helpful tutorial on building websites in R](https://www.storybench.org/how-to-build-a-website-with-blogdown-in-r/)
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
-
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+This website was designed using [the R programming language](https://www.r-project.org/), [Hugo](https://github.com/spf13) and [Netlify](https://www.netlify.com/).
