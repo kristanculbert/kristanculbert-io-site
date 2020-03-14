@@ -29,8 +29,13 @@ blogdown::new_site(theme = "yoshiharuyamashita/blackburn") #creates site using b
 
 ```
 ```{r, check if new site is working}
-#first, update site in your config.toml file and save changes. to update website with changes, run "serve site"
+#first, update site in your config.toml file and save changes as listed in steps on website. to update website with changes, run "serve site"
 
 blogdown::serve_site() #test if new site is working
+
+#here you can either use use git status in terminal window to check what's going on with files in repository, or use the Git pane to add, commit, pull, or push changes within projects. see website for more details!
+
+#Use Netlify (login to Github first) to set up domain, purchase my own unique domain, then configure DNS to drive traffic to my website
+
 ```
 
