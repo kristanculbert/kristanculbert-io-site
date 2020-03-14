@@ -1,0 +1,36 @@
+---
+title: "BlogdownBlog_13Mar2020"
+author: "Kristan"
+date: "3/13/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Steps for setting up website were found here: https://www.storybench.org/how-to-build-a-website-with-blogdown-in-r/
+
+```{r, install packages}
+
+#Install and load blogdown package
+install.packages("blogdown")
+library(blogdown)
+
+blogdown::update_hugo #updates Hugo to latest version
+
+```
+
+```{r, build new website}
+
+blogdown::new_site(theme = "yoshiharuyamashita/blackburn") #creates site using blackburn theme
+
+#Running this code chunk will open up new windows, and create Hugo site
+
+```
+```{r, check if new site is working}
+#first, update site in your config.toml file and save changes. to update website with changes, run "serve site"
+
+blogdown::serve_site() #test if new site is working
+```
+
